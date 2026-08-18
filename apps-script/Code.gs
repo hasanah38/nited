@@ -3,8 +3,8 @@
 // Google Apps Script Backend
 // ============================================================
 
-const SPREADSHEET_ID = '1KHJVpe1w4gRPAckL_gbs0WrGEjnDJylwny0od7jvkQM';
-const DRIVE_FOLDER_ID = '1FDj-gDOWuvq8A_kugvPrBhPZ8X4pHVUo';
+const SPREADSHEET_ID = '1dOtZpUf51dfSSUUJXHn5OQ9fkcKL64oTw5GB_UwjoK8';
+const DRIVE_FOLDER_ID = '1Wf0RdemINbCGDBBIuGQ3Hq9ubE2TntfX';
 const ADMIN_PASSWORD = 'admin123';
 
 const SHEETS = {
@@ -48,7 +48,7 @@ function doGet(e) {
   const page = e.parameter.page || 'index';
   const template = HtmlService.createTemplateFromFile(page);
   const html = template.evaluate()
-    .setTitle('ระบบนิเทศภายในโรงเรียนนราศึกษาธิการ')
+    .setTitle('ระบบนิเทศภายในโรงเรียนร่มเกล้า')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL)
     .addMetaTag('viewport', 'width=device-width, initial-scale=1');
   return html;
