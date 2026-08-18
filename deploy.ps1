@@ -1,5 +1,5 @@
 # ============================================================
-# Deploy Script - ระบบนิเทศภายในโรงเรียนนราศึกษาธิการ
+# Deploy Script - ระบบนิเทศภายในโรงเรียนร่มเกล้า
 # รันคำสั่งนี้ใน PowerShell เพื่อ Deploy Apps Script
 # ============================================================
 
@@ -7,7 +7,7 @@ $CLASP = "C:\Users\NARAPEO\AppData\Roaming\npm\clasp.cmd"
 $SCRIPT_DIR = "D:\nited\apps-script"
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  ระบบนิเทศภายในโรงเรียนนราศึกษาธิการ" -ForegroundColor Cyan
+Write-Host "  ระบบนิเทศภายในโรงเรียนร่มเกล้า" -ForegroundColor Cyan
 Write-Host "  Deploy Apps Script" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
@@ -51,7 +51,7 @@ Write-Host "========================================" -ForegroundColor Green
 Write-Host ""
 
 # แสดง URL
-$DEPLOY_URL = "https://script.google.com/macros/s/AKfycbz-NmIUQHTrpy5os8Sui90jVghZUOSkC0sgXehvy0h8n620U_gC6rkJXhbK6gR6EK0vkg/exec"
+$DEPLOY_URL = "https://script.google.com/macros/s/AKfycbyrw1XiR9kbxO--LJmYlwgS9lk7rciADKAmsrerNjLn75egTf1HjIpld9hjwTHiq3aC/exec"
 Write-Host "Web App URL: $DEPLOY_URL" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "ขั้นตอนถัดไป:" -ForegroundColor Yellow
