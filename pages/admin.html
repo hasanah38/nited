@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ผู้ดูแลระบบ - โรงเรียนนราศึกษาธิการ</title>
+  <title>ผู้ดูแลระบบ - โรงเรียนร่มเกล้า</title>
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -15,7 +15,7 @@
         <div class="logo">&#127891;</div>
         <div>
           <div class="brand-text">ระบบนิเทศภายใน</div>
-          <div class="brand-sub">โรงเรียนนราศึกษาธิการ</div>
+          <div class="brand-sub">โรงเรียนร่มเกล้า</div>
         </div>
       </a>
       <ul class="navbar-nav">
@@ -682,7 +682,7 @@
     function loadSettings() {
       var s = JSON.parse(localStorage.getItem('nited_settings') || '{}');
       var logo = s.logoUrl || '';
-      var name = s.schoolName || 'โรงเรียนนราศึกษาธิการ';
+      var name = s.schoolName || 'โรงเรียนร่มเกล้า';
       var addr = s.address || '';
       var primary = s.primaryColor || '#1a5276';
       var secondary = s.secondaryColor || '#e74c3c';
@@ -744,7 +744,7 @@
     function saveSettings() {
       var settings = {
         logoUrl: document.getElementById('setLogoUrl').value.trim(),
-        schoolName: document.getElementById('setSchoolName').value.trim() || 'โรงเรียนนราศึกษาธิการ',
+        schoolName: document.getElementById('setSchoolName').value.trim() || 'โรงเรียนร่มเกล้า',
         address: document.getElementById('setAddress').value.trim(),
         primaryColor: document.getElementById('setPrimaryColor').value,
         secondaryColor: document.getElementById('setSecondaryColor').value
