@@ -14,7 +14,7 @@ const CONFIG = {
   DRIVE_FOLDER_ID: '1Wf0RdemINbCGDBBIuGQ3Hq9ubE2TntfX',
 
   // System Info
-  SCHOOL_NAME: 'โรงเรียนนราศึกษาธิการ',
+  SCHOOL_NAME: 'โรงเรียนร่มเกล้า',
   SYSTEM_NAME: 'ระบบนิเทศภายใน',
 
   // Admin Password
